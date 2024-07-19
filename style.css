@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+
+*{
+        margin: 0;
+        padding: 0;
+       
+}
+
+.menu__superior{
+        background-color: #FF1493;
+}
+
+.imagem__logo{
+        width: 100px;
+        height: 100px;
+}
+
+body{
+        height: 100vh;
+        box-sizing: border-box;
+        background-color: white;
+        color: black;
+}
+
+.header{
+        background-color: white;
+        color: #4B0082 ;
+        box-sizing: border-box;
+}
+
+
+.apresentacao {
+        
+        margin: 10% ;
+        display: flex;
+        justify-content: space-between;
+        align-items: column;
+        
+}        
+
+
+.titulo-destaque{
+       
+        font-size: 36px;
+        color: #9400D3;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        
+}
+
+
+
+.apresentacao__conteudo__titulo{
+        font-size: 36px;
+        color: #FF1493;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+
+        
+       
+}
+
+.apresentacao__conteudo__texto{
+        margin: 0,5%;
+        font-size: 24px;
+        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+        color:black;
+        
+
+}
+
+.apresentacao__conteudo__titulosecundario{
+        margin: 0,5%;
+        color:#4682B4 ;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+         
+}
+
+    
+button{
+        margin:5%;
+        background-color:#9ACD32;
+        color: indigo;
+       
+       
+}
+
+
+
+.apresentacao__imagem { 
+         gap: 100px;
+        flex-direction: column;
+        padding-left: 100px;
+        
+}     
+   
+
+
+footer{
+        background-color:#9ACD32;
+        color:#663399;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 900;
+}
+a{
+        color: indigo; 
+}
+
